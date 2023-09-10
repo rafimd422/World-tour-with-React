@@ -1,0 +1,25 @@
+.country {
+border: 2px solid skyblue;
+margin: 15px;
+padding: 15px;
+border-radius: 12px;
+}
+.clicked {
+    background-color: rgb(17, 16, 16);
+color: whitesmoke;
+border: 2px solid rgb(65, 72, 75);
+margin: 15px;
+padding: 15px;
+border-radius: 12px;
+}
+.clicked img {
+    max-height: 230px;
+}
+.country img {
+    max-height: 230px;
+}
+.countryParent {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
